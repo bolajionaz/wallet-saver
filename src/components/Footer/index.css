@@ -1,0 +1,20 @@
+
+.main-footer{
+    padding-bottom: 0px;
+}
+
+.footer-area{
+    background-color: rgb(87, 5, 5);
+    padding-bottom: 5px;
+  }
+
+.footer-text{
+    color: rgba(120, 122, 124, 0.679);
+    font-family:cursive;
+}
+
+.copy-right{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
