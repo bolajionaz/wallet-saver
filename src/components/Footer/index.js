@@ -1,50 +1,67 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+
+import { Container } from 'react-bootstrap';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faFacebook,faInstagram,faTwitter,faGithub } from '@fortawesome/free-brands-svg-icons'
+
 import iconImage from './icon1.png'
 
 const Footer=() =>{
   return (
-<div>
-    <div className="footer-container">
-        {/* Column 1 */}
-      <div className="footer-column">
-      <img src={iconImage} className="iconImage" />
-        <h3>Wallet saver</h3>
-        <p>Save More & Shop More with Wallet Saver</p>
-        
-        {/* <ul>
-          <li>Link 1</li>
-          <li>Link 2</li>
-          <li>Link 3</li>
-        </ul> */}
-      </div>
-         {/* Column 2 */}
-      <div className="footer-column">
-        <h3>Contact Us</h3>
-        <ul>
-          <li>Edx Bootcamp</li>
-          <li>United Kingdom</li>
-          <li>123-456-789</li>
-        </ul>
-      </div>
-         {/* Column 3 */}
-      <div className="footer-column">
-        <h3>Follow Us</h3>
-        <ul>
-          <li>Twitter</li>
-          <li>Facebook</li>
-          <li>Instagram</li>
-        </ul>
-      </div>
+<div className="container-fluid">
+  <div className="footer">
+    <div className="row">
+        <div className="col-md-3">
+            {/* <h4>Wallet Saver</h4> */}
+            <img src={iconImage} className="iconImage" alt='logo'/>
+            <p className='logo-text'>Save More .. Shop More</p>
+        </div>
+
+        <div className="col-md-3">
+            <h4>About Us</h4>
+            <p>aaaaaaaaaaaaaaaaaaaaaaaa
+               bbbbbbbbbbbbbbbbbbbbbbbb
+               cccccccccccccccccccccccc            </p>
+        </div>
+
+        <div className="col-md-3">
+            <h4>Contact Us</h4>
+            <p>Edx Bootcamp, United Kingdom 123-456-789</p>
+        </div>
+
+        <div className="col-md-3 social-media-icons ">
+            <h4>Follow Us</h4>
+            <div>
+            <a href='https://facebook.com'>
+                <FontAwesomeIcon icon={faFacebook}/>
+            </a>
+            <a href='https://instagram.com'>
+                <FontAwesomeIcon icon={faInstagram}/>
+            </a>
+            <a href='https://twitter.com'>
+                <FontAwesomeIcon icon={faTwitter}/>
+            </a>
+            <a href='https://github.com'>
+                <FontAwesomeIcon icon={faGithub}/>
+            </a>
+            </div>
+        </div>
+
     </div>
-    <div className="container-fluid footer-area">
+    <div className="footer-area">
         <div className="footer-text">
             <p className="copy-right">©2023 Edx Bootcamp Group-07 | All Rights Reserved</p>
                     {/* <p className="copy-right">Save More & Shop More with Wallet Saver</p> */}
         </div>                
     </div>
 
+  </div>
+
 </div>
+
   );
 }
 
