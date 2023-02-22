@@ -35,6 +35,7 @@ const Footer=() =>{
                 </ul>
         </div>
 
+
         <div className="col-md-3 social-media-icons ">
             <h5><b>Follow Us</b></h5>
             <div>
