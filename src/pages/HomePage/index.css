@@ -1,0 +1,36 @@
+.HomeImage {
+    /* background-image: url("../../../public/pictures/pic1.jpg"); */
+    background-size: contain;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height: auto;
+    max-width: 100%;
+
+}
+
+/* .Slogan {
+    z-index: 100;
+    top: 80%;
+    left: 80%;
+
+} */
+
+.container {
+    position: relative;
+    display: inline-block;
+    /* or block, depending on your layout */
+}
+
+.Slogan {
+    position: absolute;
+    top: 59%;
+    left: 66%;
+    font-size: 70px;
+    color: rgb(173, 230, 251);
+    font-family: cursive;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-style: italic;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    /* make sure the text is on top */
+}
