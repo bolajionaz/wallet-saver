@@ -1,0 +1,40 @@
+.social-media-icons a{
+  font-size: 2rem;
+  color: black;
+  padding-left: 15px;
+}
+
+.footer-area{
+  background-color: rgb(87, 5, 5);
+  padding-bottom: 1px;  
+} 
+.footer{
+  padding-top: 15px;
+  background-color: antiquewhite;
+  width: 100%;
+}
+
+
+.footer-text{
+  color: rgba(120, 122, 124, 0.679);
+  font-family:'Times New Roman', Times, serif;
+}
+
+.copy-right{
+  padding-top: 10px;
+  /* padding-bottom: 10px; */
+  text-align: center;
+}  
+
+.iconImage{
+  width: 100px;
+  height: 100px;
+}
+
+.logo-text{
+  font-family: cursive;
+  font-size: 10px;
+}
+h5{
+  color: brown;
+}
