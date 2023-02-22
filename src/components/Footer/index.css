@@ -12,6 +12,8 @@
   padding-top: 15px;
   background-color: antiquewhite;
   width: 100%;
+  bottom: 0;
+  border-top-left-radius: 75px;
 }
 
 
@@ -36,5 +38,37 @@
   font-size: 10px;
 }
 h5{
-  color: brown;
+  color: rgb(117, 23, 23);
+}
+
+.textUnderline{
+  width:100%;
+  height: 6px;
+  background:antiquewhite;
+  border-radius: 3px;
+  position: relative; 
+  top: 5px;
+  left: 0px;
+ 
+}
+
+
+.textUnderline span {
+  width: 6px;
+  height: 5px;
+  background: #131313;
+  position: absolute;
+  border-radius: 2px;
+
+  left: 5px;
+  animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+  0%{
+    left:-20px;
+  }
+  100%{
+    left:100%;
+  }
 }
