@@ -1,11 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-<<<<<<< HEAD
 import HomePage from './pages/HomePage';
-=======
 import Footer from './components/Footer';
 
->>>>>>> f3f486f48375af4c8fd0b05a37b2c4d80423aef7
 function App() {
   return (
     <div className="App">
