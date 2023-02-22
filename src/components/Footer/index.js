@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebook,faInstagram,faTwitter,faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import iconImage from './icon2.png'
+import { faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Footer=() =>{
   return (
@@ -21,17 +22,21 @@ const Footer=() =>{
         </div>
 
         <div className="col-md-3">
-            <h4>About Us</h4>
+            <h5><b>About Us</b></h5>
             <p>some text..</p>
         </div>
 
         <div className="col-md-3">
-            <h4>Contact Us</h4>
-            <p>Edx Bootcamp, United Kingdom 123-456-789</p>
+            <h5><b>Contact Us</b></h5>
+                <ul className="list-unstyled">
+                    <li><FontAwesomeIcon icon={faHome}/>&emsp;Edx Bootcamp,&nbsp;</li>
+                    <li>&emsp;&emsp;&emsp;United Kingdom</li>
+                    <li><FontAwesomeIcon icon={faPhone}/>&ensp;123-456-789</li>
+                </ul>
         </div>
 
         <div className="col-md-3 social-media-icons ">
-            <h4>Follow Us</h4>
+            <h5><b>Follow Us</b></h5>
             <div>
             <a href='https://facebook.com'>
                 <FontAwesomeIcon icon={faFacebook}/>
