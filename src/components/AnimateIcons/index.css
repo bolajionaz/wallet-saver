@@ -2,20 +2,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
 }
 
 .svg-amazon{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
 }
 
 .svg-aliexpressXL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    transform: scale(7.5);
+    padding-left: 25px;
 }
 
 .svg-amazonXL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    transform: scale(7.5);
+    padding-left: 25px;
 }
