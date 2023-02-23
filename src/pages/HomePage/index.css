@@ -1,6 +1,7 @@
 .HomeImage {
     /* background-image: url("../../../public/pictures/pic1.jpg"); */
-    background-size: contain;
+    background-size: contain
+    ;
     overflow: hidden; 
     background-repeat: no-repeat;
     height: auto;

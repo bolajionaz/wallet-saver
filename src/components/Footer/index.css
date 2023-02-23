@@ -7,13 +7,16 @@
 .footer-area{
   background-color: rgb(87, 5, 5);
   padding-bottom: 1px;  
+
+
+
 } 
 .footer{
   padding-top: 15px;
   background-color: antiquewhite;
   width: 100%;
   bottom: 0;
-  border-top-left-radius: 75px;
+ 
 }
 
 
