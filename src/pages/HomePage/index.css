@@ -1,6 +1,6 @@
 .HomeImage {
     background-size: contain;
-    overflow: hidden; 
+    overflow-x: hidden;
     /* background-repeat: no-repeat; */
     height: auto;
     width: 150%;

@@ -6,7 +6,8 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-    <Router className="App">
+    <div  className='App'>
+    <Router>
     <Nav />
     {/* Wrap Route elements in a Routes component */}
     <Routes>
@@ -24,6 +25,7 @@ function App() {
     </Routes>
     <Footer />
 </Router>
+</div>
   );
 }
 
