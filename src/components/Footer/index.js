@@ -1,12 +1,8 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-
-import { Container } from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
-
 import { faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Footer=() =>{
@@ -62,7 +58,7 @@ const Footer=() =>{
         </div>
 
                 </div>
-                <div className="footer-area">
+                <div className="footer-area p-1">
                     <div className="footer-text">
                         <p className="copy-right">©2023 Edx Bootcamp Group-07 | All Rights Reserved</p>
                         {/* <p className="copy-right">Save More & Shop More with Wallet Saver</p> */}
