@@ -16,7 +16,7 @@
     align-items: center;
     cursor: pointer;
     transform: scale(7.5);
-    padding-left: 25px;
+    padding-left: 15px;
 }
 
 .svg-amazonXL{
@@ -25,5 +25,5 @@
     align-items: center;
     cursor: pointer;
     transform: scale(7.5);
-    padding-left: 25px;
+    padding-left: 15px;
 }

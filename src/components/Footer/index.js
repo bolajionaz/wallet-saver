@@ -10,21 +10,20 @@ const Footer=() =>{
 <div className="container-fluid">
   <div className="footer">
     <div className="row">
-        <div className="col-md-3">
+        <div className="col-md-4">
             {/* <h4>Wallet Saver</h4> */}
             <img src="/pictures/icon2.png" className="iconImage" alt='logo'/>
             <p className='logo-text'>Save More .. Shop More</p>
         </div>
 
-        <div className="col-md-3">
+        {/* <div className="col-md-3">
             <h5><b>About Us<div className="textUnderline"><span></span></div>
                            <div className="textUnderline"><span></span></div>
                            <div className="textUnderline"><span></span></div>
                 </b></h5>
-            <p className="aboutUsText">At wallet saver, we believe everyone deserve to have a better shopping experience.Our aim is to remove any financial barriers that can prevent you from a happy shopping!!</p>
-        </div>
+        </div> */}
             
-        <div className="col-md-3">
+        <div className="col-md-4">
             <h5><b>Contact Us<div className="textUnderline"><span></span></div>
                              <div className="textUnderline"><span></span></div>
                              </b></h5>
@@ -36,7 +35,7 @@ const Footer=() =>{
         </div>
 
 
-        <div className="col-md-3 social-media-icons ">
+        <div className="col-md-4 social-media-icons ">
             <h5><b>Follow Us<div className="textUnderline"><span></span></div>
             <div className="textUnderline"><span></span></div>
             <div className="textUnderline"><span></span></div>

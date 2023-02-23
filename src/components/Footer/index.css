@@ -10,11 +10,11 @@
 .footer{
   padding-top: 15px;
   background-color: antiquewhite;
-  width: 100%;
-  bottom: 0;
- 
+  position:absolute;
+  left:0;
+  bottom:-10;
+  right:0;
 }
-
 
 .footer-text{
   color: rgba(120, 122, 124, 0.679);
@@ -36,6 +36,7 @@
   font-family: cursive;
   font-size: 10px;
 }
+
 h5{
   color: rgb(117, 23, 23);
 }
@@ -51,6 +52,11 @@ h5{
  
 }
 
+.list-unstyled li:hover{
+  background-color: antiquewhite;
+  transform: none;
+  cursor: auto;
+}
 
 .textUnderline span {
   width: 2px;

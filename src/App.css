@@ -4,3 +4,11 @@
   background-color: antiquewhite;
 }
 
+.container-background {
+  background-image: url("./pic11.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  overflow-x: hidden;
+  left: -100px;
+}

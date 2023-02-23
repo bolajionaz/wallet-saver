@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
+import About from '../About';
+import FAQs from '../FAQs';
 import './index.css';
 
 {/*<div className='d-flex menu-container' id='bar'>
@@ -11,7 +13,8 @@ import './index.css';
         </ul>
       </div>*/}
 
-function Nav () {
+function Nav (props) {
+
     return (
       
       <nav className="navbar navbar-expand-md navbar-light" id='bar'>
@@ -46,6 +49,24 @@ function Nav () {
                         Compare Stores
                     </NavLink>
                 </li>
+                {/* <li className="nav-item">
+                  <NavLink to="faq"
+                    className={({ isActive }) =>
+                    isActive ? 'right-menu nav-link active' : 'right-menu nav-link'}>
+                        <FAQs showFAQ={props.showFAQ}
+                            handleFAQShow={props.handleFAQShow}
+                            handleFAQClose={props.handleFAQClose}/>
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="about"
+                    className={({ isActive }) =>
+                    isActive ? 'right-menu nav-link active' : 'right-menu nav-link'}>
+                        <About showAbout={props.showAbout}
+                            handleAboutShow={props.handleAboutShow}
+                            handleAboutClose={props.handleAboutClose}/> 
+                    </NavLink>
+                </li> */}
             </ul>
           </div>
         </div>
