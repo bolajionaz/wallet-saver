@@ -9,8 +9,8 @@ const Nav=() =>{
           <a className='me-auto p-2 navbar-brand'><img src={iconImage}/><strong>Wallet Saver</strong></a>
         
             <ul className='d-flex'>
-          <li className='p-2'><a>Ambika</a></li>
-          <li className='p-2'><a>Ambika</a></li>
+          <li className='right-menu p-2'><a>Compare Stores</a></li>
+          <li className='right-menu p-2'><a>Individual Stores</a></li>
         </ul>
         </div>
   
