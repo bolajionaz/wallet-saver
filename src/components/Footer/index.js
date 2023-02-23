@@ -22,7 +22,7 @@ const Footer=() =>{
 
         <div className="col-md-3">
             <h5><b>About Us</b></h5>
-            <p>some text..</p>
+            <p className="aboutUsText">At wallet saver, we believe everyone deserve to have a better shopping experience.Our aim is to remove any financial barriers that can prevent you from a happy shopping!!</p>
         </div>
 
         <div className="col-md-3">

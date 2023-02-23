@@ -72,3 +72,11 @@ h5{
     left:100%;
   }
 }
+
+
+.aboutUsText{
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: justify;
+  font-size: 14px;
+}
