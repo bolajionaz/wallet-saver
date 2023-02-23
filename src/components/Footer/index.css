@@ -7,11 +7,16 @@
 .footer-area{
   background-color: rgb(87, 5, 5);
   padding-bottom: 1px;  
+
+
+
 } 
 .footer{
   padding-top: 15px;
   background-color: antiquewhite;
   width: 100%;
+  bottom: 0;
+ 
 }
 
 
@@ -27,8 +32,8 @@
 }  
 
 .iconImage{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 120px;
 }
 
 .logo-text{
@@ -36,5 +41,45 @@
   font-size: 10px;
 }
 h5{
-  color: brown;
+  color: rgb(117, 23, 23);
+}
+
+.textUnderline{
+  width:100%;
+  height: 6px;
+  background:antiquewhite;
+  border-radius: 3px;
+  position: relative; 
+  top: 5px;
+  left: 0px;
+ 
+}
+
+
+.textUnderline span {
+  width: 2px;
+  height: 2px;
+  background: #131313;
+  position: absolute;
+  border-radius: 2px;
+
+  left: 5px;
+  animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+  0%{
+    left:-20px;
+  }
+  100%{
+    left:100%;
+  }
+}
+
+
+.aboutUsText{
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: justify;
+  font-size: 14px;
 }

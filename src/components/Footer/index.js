@@ -5,9 +5,8 @@ import './index.css';
 import { Container } from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faFacebook,faInstagram,faTwitter,faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
-import iconImage from './icon2.png'
 import { faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Footer=() =>{
@@ -17,17 +16,22 @@ const Footer=() =>{
     <div className="row">
         <div className="col-md-3">
             {/* <h4>Wallet Saver</h4> */}
-            <img src={iconImage} className="iconImage" alt='logo'/>
+            <img src="/pictures/icon2.png" className="iconImage" alt='logo'/>
             <p className='logo-text'>Save More .. Shop More</p>
         </div>
 
         <div className="col-md-3">
-            <h5><b>About Us</b></h5>
-            <p>some text..</p>
+            <h5><b>About Us<div className="textUnderline"><span></span></div>
+                           <div className="textUnderline"><span></span></div>
+                           <div className="textUnderline"><span></span></div>
+                </b></h5>
+            <p className="aboutUsText">At wallet saver, we believe everyone deserve to have a better shopping experience.Our aim is to remove any financial barriers that can prevent you from a happy shopping!!</p>
         </div>
-
+            
         <div className="col-md-3">
-            <h5><b>Contact Us</b></h5>
+            <h5><b>Contact Us<div className="textUnderline"><span></span></div>
+                             <div className="textUnderline"><span></span></div>
+                             </b></h5>
                 <ul className="list-unstyled">
                     <li><FontAwesomeIcon icon={faHome}/>&emsp;Edx Bootcamp,&nbsp;</li>
                     <li>&emsp;&emsp;&emsp;United Kingdom</li>
@@ -35,8 +39,12 @@ const Footer=() =>{
                 </ul>
         </div>
 
+
         <div className="col-md-3 social-media-icons ">
-            <h5><b>Follow Us</b></h5>
+            <h5><b>Follow Us<div className="textUnderline"><span></span></div>
+            <div className="textUnderline"><span></span></div>
+            <div className="textUnderline"><span></span></div>
+            </b></h5>
             <div>
             <a href='https://facebook.com'>
                 <FontAwesomeIcon icon={faFacebook}/>
@@ -53,19 +61,19 @@ const Footer=() =>{
             </div>
         </div>
 
-    </div>
-    <div className="footer-area">
-        <div className="footer-text">
-            <p className="copy-right">©2023 Edx Bootcamp Group-07 | All Rights Reserved</p>
-                    {/* <p className="copy-right">Save More & Shop More with Wallet Saver</p> */}
-        </div>                
-    </div>
+                </div>
+                <div className="footer-area">
+                    <div className="footer-text">
+                        <p className="copy-right">©2023 Edx Bootcamp Group-07 | All Rights Reserved</p>
+                        {/* <p className="copy-right">Save More & Shop More with Wallet Saver</p> */}
+                    </div>
+                </div>
 
-  </div>
+            </div>
 
-</div>
+        </div>
 
-  );
+    );
 }
 
 export default Footer;
