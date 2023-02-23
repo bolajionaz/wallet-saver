@@ -4,7 +4,7 @@ import ResultList from "../../components/ResultLists";
 // import API from "../../utils/API";
 import AmazonAPI from "../../utils/Amazon API";
 import AliExpressAPI from "../../utils/AliExpressAPI";
-
+import "./index.css"
 function SearchOnlineStores(props) {
 
   // max num items per column while comparing
@@ -100,6 +100,9 @@ function SearchOnlineStores(props) {
             otherResults = {otherStoresResults}
             searchOpt={props.searchOpt}
             />
+        <br/> 
+        <br/>
+        <div className="horizontal-line"></div>
       </>
     );
   }

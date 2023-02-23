@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 
 import HomePage from './pages/HomePage';
 import ChooseStore from './pages/StoreChoice';
+import SearchOnlineStores from './pages/SearchResultsTable';
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/search/stores" element={<ChooseStore />} />
-        {/* 
         <Route path="/search/stores/aliExpress" element={<SearchOnlineStores searchOpt="aliExpress" />} />
         <Route path="/search/stores/amazon" element={<SearchOnlineStores searchOpt="amazon" />} />
         <Route path="/search/stores/compare" element={<SearchOnlineStores searchOpt="compare" /> } />
+        {/* 
+        
         <Route path='/about' element={<About/>}></Route>
         <Route path='/faq' element={<FAQs/>}></Route> */}
         {/* Define a route that will have descendant routes */}

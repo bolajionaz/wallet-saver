@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css"
 
 function CalcDiscount(product_original_price, product_price){
     let discount;
@@ -49,10 +48,10 @@ function AmazonColumn (props) {
             <img alt={result.asin} className="img-fluid shrink" src={result.product_photo} />
             <h6 className="item-heading m-2">{result.product_title}</h6>
             </div></a>
-            <strong>rating:</strong> <span className="badge badge-info">{`${result.product_star_rating}`}</span> <br/>
-            <strong>price:</strong> {result.product_price + CalcDiscount(result.product_original_price,result.product_price)} <br/>
-            <strong>Current Offers:</strong> {result.product_num_offers}<br/>
-            <strong>Best Seller?:</strong> {`${result.is_best_seller}`} <br/>
+            <strong className="property-heading">rating:</strong> <span className="badge badge-info">{`${result.product_star_rating}`}</span> <br/>
+            <strong className="property-heading">price:</strong> {result.product_price + CalcDiscount(result.product_original_price,result.product_price)} <br/>
+            <strong className="property-heading">Current Offers:</strong> {result.product_num_offers}<br/>
+            <strong className="property-heading">Best Seller?:</strong> {`${result.is_best_seller}`} <br/>
             </li>
         )
         )}

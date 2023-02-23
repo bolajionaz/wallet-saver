@@ -35,3 +35,29 @@
     justify-content: center;
     align-items: center;
 }
+
+/* list items css */
+li{
+    font-weight: 500;
+    color: black;
+  }
+  
+  li:hover {
+      transform: scale(1.05);
+       /* transform-origin:10%; */
+       background-color: white;
+      z-index: 1;
+      background: burlywood;
+      cursor: pointer;
+    }
+  
+  li a{
+    text-decoration: none;
+    color: rgb(60, 54, 54);}
+    
+  li a:hover{
+    color: rgb(146, 11, 11);
+    text-decoration: underline;
+  }
+  
+  

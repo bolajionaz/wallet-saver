@@ -10,10 +10,10 @@ function AliExpressColumn (props) {
             <img alt={result.item.itemId} className="img-fluid shrink" src={result.item.image} />
             <h6 className="m-2 item-heading">{result.item.title}</h6>
             </div></a>
-            <strong>rating:</strong> <span className="badge badge-info">{`${result.item.averageStarRate}`}</span> <br/>
-            <strong>price:</strong> ${result.item.sku.def.promotionPrice} <br/>
-            <strong>number of sales:</strong> {result.item.sales} <br/>
-            <strong>freeShipping:</strong> {`${result.delivery.freeShipping}`} <br/>
+            <strong className="property-heading">rating:</strong> <span className="badge badge-info">{`${result.item.averageStarRate}`}</span> <br/>
+            <strong className="property-heading">price:</strong> ${result.item.sku.def.promotionPrice} <br/>
+            <strong className="property-heading">number of sales:</strong> {result.item.sales} <br/>
+            <strong className="property-heading">freeShipping:</strong> {`${result.delivery.freeShipping}`} <br/>
             </li>
         )
         )}

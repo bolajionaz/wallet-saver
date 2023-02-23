@@ -3,8 +3,8 @@
     overflow-x: hidden;
     /* background-repeat: no-repeat; */
     height: auto;
-    width: 150%;
-    margin-left: -140px;
+    width: 130%;
+    margin-left: -130px;
 }
 
 /* .container {
@@ -14,7 +14,7 @@
 
 .Slogan {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 20%;
     font-size: 4vw;
     color: rgb(173, 230, 251);
