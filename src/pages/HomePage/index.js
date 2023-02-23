@@ -6,10 +6,8 @@ function HomePage() {
         <img src="/pictures/pic1.jpg" alt="HomePage" className="HomeImage" />
         <div className="Slogan ">
             Everything, Everywhere, <br /> All at once ...
-
         </div>
     </div>);
-
 }
 
 export default HomePage;
