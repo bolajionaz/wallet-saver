@@ -7,7 +7,6 @@ import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
-import iconImage from './icon2.png'
 import { faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Footer=() =>{
@@ -17,7 +16,7 @@ const Footer=() =>{
     <div className="row">
         <div className="col-md-3">
             {/* <h4>Wallet Saver</h4> */}
-            <img src={iconImage} className="iconImage" alt='logo'/>
+            <img src="/pictures/icon2.png" className="iconImage" alt='logo'/>
             <p className='logo-text'>Save More .. Shop More</p>
         </div>
 
