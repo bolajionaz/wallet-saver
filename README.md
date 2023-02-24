@@ -42,25 +42,23 @@ To better cater for your needs,  these were some of our starting points... sound
 
 To start navigating functions, click on either the "Individual Stores" or "Compare Stores" options located on the navigation bar. 
 
-<img src="./public/pictures/readmeImages/nav-items.png" alt="html-image" width=100>
+<img src="./public/pictures/readmeImages/nav-items.png" alt="navigation-items" width=300>
 
 The "Compare Stores" option will lead you directly to our winning comparison site where you can simply enter in your search prompt and get the results in separate columns.
 
-<img src="./public/pictures/readmeImages/nav-items.png" alt="html-image" width=100>
+Type in your desired item and click on search. 
 
-This will bring up an input field with two empty columns. Type in your desired item and click on search. 
-
-<img src="./public/pictures/readmeImages/searchBarAndHeaders.png" alt="html-image" width=600>
+<img src="./public/pictures/readmeImages/searchBarAndHeaders.png" alt="search-bar" width=600>
 
 Our search returns the bare minimum which each user needs to know, including the item image,  rating by other buyers, price, etc. 
 
-<img src="./public/pictures/readmeImages/searchResults.png" alt="html-image" width=600>
+<img src="./public/pictures/readmeImages/searchResults.png" alt="search-results" width=600>
 
 To purchase an item, click on the title of the desired item; this will relocate you to the chosen item on the relevant site where more details are available.
 
 Alternatively, you can browse items in each online store individually by clicking on the "Individual Stores". This will lead to the page below. Clicking on any of the floating icons will redirect you to the search bar where you can view only items available in the relevant store.
 
-<img src="./public/pictures/readmeImages/floatingAnimations.png" alt="html-image" width=600>
+<img src="./public/pictures/readmeImages/floatingAnimations.png" alt="stores" width=600>
 
 ## Deployment 
 
@@ -73,11 +71,11 @@ For developers, the major components needed to render the app were tested prior 
 
 To test, simply clone the repo, switch to the above stated branch and enter *npm test*. This will automatically run the tests written in *App.test.js*.
 
-<img src="./public/pictures/readmeImages/testsRunning.PNG" alt="html-image" width=400>
+<img src="./public/pictures/readmeImages/testsRunning.PNG" alt="tests-running" width=400>
 
 The final result should look something like this;
 
-<img src="./public/pictures/readmeImages/testsResults.PNG" alt="html-image" width=600>
+<img src="./public/pictures/readmeImages/testsResults.PNG" alt="tests-results" width=600>
 
 ## Contributors
 
