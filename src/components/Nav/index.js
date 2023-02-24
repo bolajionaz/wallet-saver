@@ -49,7 +49,7 @@ function Nav (props) {
                         Compare Stores
                     </NavLink>
                 </li>
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <NavLink to="faq"
                     className={({ isActive }) =>
                     isActive ? 'right-menu nav-link active' : 'right-menu nav-link'}>
@@ -66,7 +66,7 @@ function Nav (props) {
                             handleAboutShow={props.handleAboutShow}
                             handleAboutClose={props.handleAboutClose}/> 
                     </NavLink>
-                </li> */}
+                </li> 
             </ul>
           </div>
         </div>
