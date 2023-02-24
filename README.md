@@ -6,19 +6,19 @@ Wallet saver is an application developed in react to provide product comparison 
 
 ## **TOC**
 
-- [Description](##Description)
+- [Description](#Description)
 
-- [Table Of Content](##TOC)
+- [Table Of Content](#TOC)
 
-- [Our User Stories](##Stories)
+- [Our User Stories](#Stories)
 
-- [Technologies Used](##Technologies)
+- [Technologies Used](#Technologies)
 
-- [Usage](##Usage)
+- [Usage](#Usage)
 
-- [Tests](##Tests)
+- [Tests](#Tests)
 
-- [Contributors](##Contributors)
+- [Contributors](#Contributors)
 
 ## Stories
 
@@ -75,7 +75,7 @@ To test, simply clone the repo, switch to the above stated branch and enter *npm
 
 The final result should look something like this;
 
-<img src="./public/pictures/readmeImages/testsResults.PNG" alt="tests-results" width=600>
+<img src="./public/pictures/readmeImages/testsResults.PNG" alt="tests-results" width=400>
 
 ## Contributors
 
