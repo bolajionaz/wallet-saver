@@ -67,7 +67,7 @@ is available [here](https://wallet-saver2.netlify.app/)
 
 ## Tests
 
-For developers, the major components needed to render the app were tested prior to development. This was facilitated via use of enzyme and jest. Due to initial discrepancies between much needed dependencies, all tests are carried out in a react 16 version mirror, which is available on the **react-16-ver** branch.
+For developers, the major components needed to render the app were tested prior to development. This was facilitated via use of enzyme and jest. Due to initial discrepancies between much needed dependencies, all tests are carried out in a react 16 version mirror, which is also available on the **react-16-ver** branch.
 
 To test, simply clone the repo, switch to the above stated branch and enter *npm test*. This will automatically run the tests written in *App.test.js*.
 
