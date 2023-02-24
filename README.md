@@ -62,8 +62,7 @@ Alternatively, you can browse items in each online store individually by clickin
 
 ## Deployment 
 
-The URL of the deployed application at Netlify:
-is available [here](https://wallet-saver2.netlify.app/)
+The URL of the deployed Netlify application is available [here](https://wallet-saver2.netlify.app/)
 
 ## Tests
 
