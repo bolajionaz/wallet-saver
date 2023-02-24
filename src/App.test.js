@@ -1,12 +1,11 @@
 import React from 'react';
 import App from './App';
 import { shallow, mount } from 'enzyme';
-import { render, screen } from '@testing-library/react';
+// import { render, screen } from '@testing-library/react';
 
 import NavBar from './components/Nav';
 import { AnimateAliExpressLargeIcon, AnimateAliExpressIcon, AnimateAmazonIcon, AnimateAmazonLargeIcon } from './components/AnimateIcons';
 import SearchForm from './components/SearchTemplate';
-import ReactInitialPage from './pages/ReactInitialPage';
 import ModalDialog from './components/Modal';
 
 // App imgs load
