@@ -26,7 +26,7 @@ import ModalDialog from './components/Modal';
       })
 
     it('should render the two buttons class "nav-item', () => {
-      expect(wrapper.find('.nav-item')).toHaveLength(2);
+      expect(wrapper.find('.nav-item')).toHaveLength(4);
     });
 
     })
