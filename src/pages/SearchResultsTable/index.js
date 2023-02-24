@@ -20,7 +20,7 @@ function SearchOnlineStores(props) {
   const searchStores = query => {
     //const requests = API.search(query);
     // if user chooses to search aliexpress only
-    if (query!=="" && props.searchOpt==='aliEx'){
+    if (query!=="" && props.searchOpt==='aliExpress'){
       const API = AliExpressAPI;
       const requests = API.search(query);
       requests.then(res => {  
