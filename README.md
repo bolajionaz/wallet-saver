@@ -16,6 +16,8 @@ Wallet saver is an application developed in react to provide product comparison 
 
 - [Usage](#Usage)
 
+- [Deployment](#Deployment)
+
 - [Tests](#Tests)
 
 - [Contributors](#Contributors)
